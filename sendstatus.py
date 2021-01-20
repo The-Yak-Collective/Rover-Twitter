@@ -8,12 +8,12 @@ load_dotenv(dotenv_path)
 
 CK = os.environ.get("CK")
 CS = os.environ.get("CS")
-AT = os.environ.get("AT")
+ATK = os.environ.get("ATK")
 ATS = os.environ.get("ATS")
 
 import twitter
 api = twitter.Api(consumer_key=CK,
                   consumer_secret=CS,
-                  access_token_key=AT,
+                  access_token_key=ATK,
                   access_token_secret=ATS)
 status = api.PostUpdate('I am alive at '+ str(datetime.now(timezone.utc)))
