@@ -1,2 +1,2 @@
 # Rover Twitter
- Code for twitting from twitter
+ Code for twitting from rover
