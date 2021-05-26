@@ -19,4 +19,4 @@ api = twitter.Api(consumer_key=CK,
                   consumer_secret=CS,
                   access_token_key=ATK,
                   access_token_secret=ATS)
-status = api.PostUpdate('#{}:'.format(name)'I woke up just now, at '+ str(datetime.now(timezone.utc)))
+status = api.PostUpdate('#{}:'.format(name)+'I woke up just now, at '+ str(datetime.now(timezone.utc)))
