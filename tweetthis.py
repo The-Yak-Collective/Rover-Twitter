@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 ll=len(sys.argv)
 if ll<2: #was called with no args
-    return
+    sys.exit(0)
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
